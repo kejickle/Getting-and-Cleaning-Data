@@ -1,11 +1,11 @@
 # Getting-and-Cleaning-Data
 Step 1: Download the zipped file from the url that is labeled fileUrl and be sure to save the date it was downloaded.
-Step 2: Unzip the files that you want from the original zipped file.  These files include getting X_test.txt, X_train.txt, features.txt, activity_labels.txt, y_train.txt, y_test.txt, subject_test.txt, and subject_train.txt
+Step 2: Unzip the files that you want from the original zipped file.  These files include getting X_test.txt, X_train.txt, features.txt, activity_labels.txt, y_train.txt, y_test.txt, subject_test.txt, and subject_train.txt.
 Step 3: Then read all of these files in using the read.table() command.  
 ****
-Step 4: Bind the train and test data sets together in a variable called data 
+Step 4: Bind the train and test data sets together in a variable called data. 
 Step 5: In order to get only the mean and standard deviation values for each measurement, first find the column indices that contain the words "mean", "std", or "Mean" in the dataframe called data and sort these indices.
-Step 6: Then subset data to only contain the columns with these indices 
+Step 6: Then subset data to only contain the columns with these indices.
 Step 7: Substitute the activity labels into data instead of numbers 1-6 using the gsub() function.
 Step 8: In order to label the columns with appropriate variable names, substitute all characters such as (),., and - with "" which is nothing in order to remove these from the variable names.  
 Step 9: Load the dplyr package in order to use functions necessary to create the tidy data set 
