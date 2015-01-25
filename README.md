@@ -1,6 +1,8 @@
 # Getting-and-Cleaning-Data
 Step 1: Download the zipped file from the url that is labeled fileUrl and be sure to save the date it was downloaded. /n
+
 Step 2: Unzip the files that you want from the original zipped file.  These files include getting X_test.txt, X_train.txt, features.txt, activity_labels.txt, y_train.txt, y_test.txt, subject_test.txt, and subject_train.txt./n
+
 Step 3: Then read all of these files in using the read.table() command.  
 ****
 Step 4: Bind the train and test data sets together in a variable called data. 
